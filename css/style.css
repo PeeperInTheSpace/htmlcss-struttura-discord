@@ -26,11 +26,11 @@ a {
 }
 
 button {
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    padding: 5px 12px;
+    font-size: 30px;
+    padding: 10px 20px;
     border: none;
 }
 
@@ -82,7 +82,7 @@ header {
 }
 
 .picleft {
-    width: 500px;
+    width: 900px;
     margin-right: 60px;
 }
 
@@ -101,14 +101,15 @@ header {
 .textbox > h1 {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 60px;
     margin-bottom: 20px;
 }
 
 .textbox > p {
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
+    font-size: 25px;
 }
 
 .textleft {
@@ -118,6 +119,49 @@ header {
 }
 
 .picright {
-    width: 500px;
+    width: 900px;
     margin-right: 60px;
+}
+
+.texttop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+}
+
+.textboxalt {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.textboxalt > h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.textboxalt > p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.texttop > h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.downloadbottom {
+    background-color: #8c9edd;
+    color: white;
+    margin-top: 20px;
 }
