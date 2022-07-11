@@ -38,6 +38,9 @@ button {
     background-color: white;
     color: black;
     border-style: none;
+    font-size: 20px;
+    padding: 8px 15px;
+    border: none;
 }
 
 header {
@@ -52,7 +55,6 @@ header {
     align-items: center;
     flex-direction: column;
     width: 900px;
-    height: 400px;
     color: white;
 }
 
@@ -79,6 +81,7 @@ header {
 .browsermodebutton {
     background-color: black;
     color: white;
+    margin-bottom: 50px;
 }
 
 .picleft {
@@ -164,4 +167,53 @@ header {
     background-color: #8c9edd;
     color: white;
     margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+footer {
+    background-color: #23272a;
+    height: 1000px;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.footercolumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.footercolumn > h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #7289da;
+}
+
+.footercolumn > h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #7289da;
+}
+
+.footercolumn > span {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    line-height: 40px;
+}
+
+.flag {
+    width: 50px;
+}
+
+.social {
+    width: 250px;
 }
